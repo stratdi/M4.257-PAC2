@@ -80,11 +80,14 @@ header {
         color: var(--color-header-text);
         text-shadow: var(--color-header-text-shadow);
         text-align: center;
-        font-size: 5rem;
-        text-transform: uppercase;
-        margin: 0;
-        font-family: var(--font-one-piece);
+        font-size: 1.7rem;
+        // text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        // font-family: var(--font-one-piece);
     }
+
+    text-align: center;
 
     /* Relatiu al menú */
     .menu {
@@ -116,6 +119,14 @@ header {
             }
         }
     }
+
+    picture {
+        img {
+            width: 300px;
+        }
+    }
+
+
 }
 
 /* Contingut de la plana */
@@ -253,22 +264,49 @@ footer {
     text-align: center;
     font-weight: bold;
 
+    display: flex;
+    // align-items: center;
+    justify-content: space-around;
+    // flex-wrap: wrap
+    align-items: center;
+    flex-direction: row;
+
+    justify-content: center;
+
+    // flex-direction: column;  
+
     p {
         margin: 15px;
+    }
+
+    img {
+        max-width: 200px;
     }
 
     input[type="radio"] {
         display: none;
     }
 
-    #theme-toggler {
-        position: absolute;
-        right: 0;
-        bottom: 20px;
+    // #theme-toggler {
+    //     position: absolute;
+    //     right: 0;
+    //     bottom: 20px;
 
-        label {
-            margin-right: 10px;
-            cursor: pointer;
+    //     label {
+    //         margin-right: 10px;
+    //         cursor: pointer;
+    //     }
+    // }
+
+    #theme-toggler {
+        width: 120px;
+    }
+
+    nav {
+        width: 100vw;
+
+        a {
+            background-color: transparent;
         }
     }
 }
@@ -294,9 +332,23 @@ a.btn {
 
 /* Estils per dispositius mòbils */
 @media (max-width: 768px) {
+    main {
+        padding-bottom: 22vh;
+    }
+
     .menu {
         flex-direction: column;
         align-items: center;
+    }
+
+    footer {
+        height: 170px;
+        flex-direction: column;
+        align-items: center;
+
+        nav {
+            margin-bottom: 10px;
+        }
     }
 
     .card {
