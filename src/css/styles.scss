@@ -279,24 +279,21 @@ footer {
         margin: 15px;
     }
 
-    img {
-        max-width: 200px;
+    picture {
+        img {
+            width: 200px;
+        }
     }
 
     input[type="radio"] {
         display: none;
     }
 
-    // #theme-toggler {
-    //     position: absolute;
-    //     right: 0;
-    //     bottom: 20px;
-
-    //     label {
-    //         margin-right: 10px;
-    //         cursor: pointer;
-    //     }
-    // }
+    #theme-toggler {
+        label {
+            cursor: pointer;
+        }
+    }
 
     #theme-toggler {
         width: 120px;
