@@ -13,8 +13,24 @@
     <section>
       <article>
         <header>
-          <img src="src/img/presentacio.jpg" >
+          <picture>
+            <source media="(max-width: 768px)" srcset="src/img/presentacio-crop.jpg">
+            <source media="(min-width: 769px)" srcset="src/img/presentacio-wide.jpg">
+            <img src="src/img/presentacio-wide.jpg" alt="Presentació">
+          </picture>
         </header>
+        <div class="center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="animated-logo">
+            <text y="50%" class="u">U</text>
+            <text x="10%" y="50%" class="o">O</text>
+            <text x="20%" y="50%" class="c1">C</text>
+            <text x="50%" y="50%" class="p">P</text>
+            <text x="60%" y="50%" class="i">I</text>
+            <text x="70%" y="50%" class="e1">E</text>
+            <text x="80%" y="50%" class="c2">C</text>
+            <text x="90%" y="50%" class="e2">E</text>
+          </svg>
+        </div>
         <p>La nostra pàgina és la porta d'entrada a un emocionant viatge a través del vast món de "One
           Piece". Aquí, et submergiràs en una experiència detallada que et proporcionarà una visió completa de tot el
           que el nostre lloc web té per oferir.</p>
