@@ -114,35 +114,29 @@ header {
             background-color: transparent;
             border-radius: 0px;
             border-bottom: 4px solid;
-            background: linear-gradient(var(--color-menu-bg), var(--color-menu-bg) 50%, #2ecc71 50%, #2ecc71);
-            background-size: 100% 200%;
             transition: background .3s;
 
             &.portada {
                 background: linear-gradient(var(--color-menu-bg), var(--color-menu-bg) 50%, #3498db 50%, #3498db);
                 background-size: 100% 200%;
-                transition: background .5s;
                 border-color: #3498db;
             }
 
             &.categoria {
                 background: linear-gradient(var(--color-menu-bg), var(--color-menu-bg) 50%, #ffd071 50%, #ffd071);
                 background-size: 100% 200%;
-                transition: background .5s;
                 border-color: #ffd071;
             }
 
             &.presentacio {
                 background: linear-gradient(var(--color-menu-bg), var(--color-menu-bg) 50%, #f0776c 50%, #f0776c);
                 background-size: 100% 200%;
-                transition: background .5s;
                 border-color: #f0776c;
             }
 
             &.enllacos {
                 background: linear-gradient(var(--color-menu-bg), var(--color-menu-bg) 50%, #1abc9c 50%, #1abc9c);
                 background-size: 100% 200%;
-                transition: background .5s;
                 border-color: #1abc9c;
             }
 
