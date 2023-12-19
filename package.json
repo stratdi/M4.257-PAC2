@@ -23,6 +23,7 @@
     "sharp": "^0.31.3"
   },
   "dependencies": {
+    "a11y-sitechecker": "^6.0.1",
     "feather-icons": "^4.29.1",
     "posthtml-doctype": "^1.1.1"
   }

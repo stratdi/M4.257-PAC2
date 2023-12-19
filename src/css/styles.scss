@@ -72,6 +72,10 @@ a {
     border-radius: 5px;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Capçalera de la plana */
 header {
     background: var(--color-header-gradient);
@@ -227,14 +231,12 @@ aside {
         p.op {
             font-family: var(--font-one-piece);
             text-transform: uppercase;
-            font-weight: bold;
-            font-size: 3rem;
+            font-size: 1.3rem;
             text-align: center;
         }
 
         p.pt {
-            font-weight: bold;
-            font-size: 3rem;
+            font-size: 1.3rem;
             text-align: center;
             font-family: var(--font-pt-sans);
         }
@@ -297,13 +299,15 @@ footer {
     }
 
     #theme-toggler {
+        width: 120px;
+
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+
         label {
             cursor: pointer;
         }
-    }
-
-    #theme-toggler {
-        width: 120px;
     }
 
     nav {
@@ -358,7 +362,7 @@ svg.animated-logo {
     text {
         animation: stroke 5s infinite alternate;
         stroke-width: 2;
-        stroke: #365fa0;
+        stroke: var(--color-btn-bg-hover);
     }
 }
 
